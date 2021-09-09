@@ -9,8 +9,10 @@ This project is written in Python programming language. It's based on BeautifulS
 5. It writes this information into CSV file.
 5. It goes in the loop to every container, which storages a link and scraps it.
 6. It writes these links into CSV file.
-		Program can be improved by:
-	- making code more clean through putting functionalities in functions
-	- handling exceptions (for excemple, when file keywords.txt doesn't exist)
-		Risks associated with using such a program:
-	- Google can block IP adress used for running this code (necessity to use VPN/proxy) 
+
+Program can be improved by: <br>
+- making code more clean through putting functionalities in functions <br>
+- handling exceptions (for excemple, when file keywords.txt doesn't exist) <br>
+
+Risks associated with using such a program: <br>
+- Google can block IP adress used for running this code (necessity to use VPN/proxy) 
