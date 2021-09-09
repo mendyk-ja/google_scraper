@@ -1,6 +1,7 @@
 # google_scraper
 
 	This project is written in Python programming language. It's based on BeautifulSoup library for web scraping. It allows us to make some automatization during information search in Google.
+	
 1. Project code starts with importing libraries needed for the rest of the code.
 2. It opens keywords.txt file to get information about keywords.
 3. After getting each keyword it makes Google query with that keyword and opens it in browser.
