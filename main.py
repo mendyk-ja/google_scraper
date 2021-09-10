@@ -27,6 +27,8 @@ for line in lines:
         link = google_result.find('a')['href']
         if link[0] == 'h':
             csv_file = open("links.csv", 'a', newline="")
+#aby zrobic jednoelementowa tupie trzeba użyć składni:
+#tup2 = (link.strip(),)
             tup2 = (line.strip(), link.strip())
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow(tup2)
